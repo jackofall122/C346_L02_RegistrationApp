@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FAF7F7"
     android:orientation="vertical"
     android:paddingLeft="30dp"
     android:paddingTop="10dp"
@@ -16,6 +17,7 @@
         android:layout_height="wrap_content"
         android:paddingTop="50dp"
         android:text="@string/regform"
+        android:textColor="#8DE32D"
         android:textSize="34sp"
         android:textStyle="bold" />
 
@@ -25,7 +27,9 @@
         android:layout_height="wrap_content"
         android:paddingBottom="50dp"
         android:text="@string/welcome"
-        android:textColor="#837E7E" />
+        android:textColor="#ED6E88"
+        android:textSize="14sp"
+        android:textStyle="normal" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,14 +42,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:fontFamily="sans-serif-black"
-            android:text="@string/fullname" />
+            android:text="@string/fullname"
+            android:textColor="#932424" />
 
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
-            android:backgroundTintMode="multiply"
+            android:backgroundTint="#E38585"
+            android:backgroundTintMode="src_in"
             android:hint="@string/firstname"
             android:inputType="text"
             android:shadowColor="#4C1515"
@@ -56,6 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
+            android:backgroundTint="#E38585"
             android:hint="@string/lastname"
             android:inputType="text"
             android:textColorHint="#D5A5A5" />
@@ -71,7 +78,8 @@
             android:layout_width="102dp"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
-            android:text="@string/gender" />
+            android:text="@string/gender"
+            android:textColor="#FF932424" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -89,8 +97,10 @@
                     android:id="@+id/radioButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="#B8A7A7"
+                    android:buttonTint="#FF3939"
                     android:text="@string/male"
-                    android:textColor="#9E0303"
+                    android:textColor="#EF7A7A"
                     android:textColorHint="#D5A5A5" />
 
                 <RadioButton
@@ -98,7 +108,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/female"
-                    android:textColor="#9E0303" />
+                    android:textColor="#EF7A7A" />
             </RadioGroup>
         </LinearLayout>
 
@@ -115,13 +125,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.4"
             android:fontFamily="sans-serif-black"
-            android:text="@string/studentId" />
+            android:text="@string/studentId"
+            android:textColor="#FF932424" />
 
         <EditText
             android:id="@+id/editTextText4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.6"
+            android:backgroundTint="#E38585"
             android:ems="10"
             android:inputType="text"
             android:text="" />
@@ -139,13 +151,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.4"
             android:fontFamily="sans-serif-black"
-            android:text="@string/school" />
+            android:text="@string/school"
+            android:textColor="#FF932424" />
 
         <EditText
             android:id="@+id/editTextText7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.6"
+            android:backgroundTint="#FFE38585"
             android:ems="10"
             android:inputType="text"
             android:text="" />
@@ -162,13 +176,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.4"
             android:fontFamily="sans-serif-black"
-            android:text="@string/email" />
+            android:text="@string/email"
+            android:textColor="#FF932424" />
 
         <EditText
             android:id="@+id/editTextText8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.6"
+            android:backgroundTint="#E38585"
             android:ems="10"
             android:inputType="text"
             android:text="" />
@@ -186,13 +202,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.4"
             android:fontFamily="sans-serif-black"
-            android:text="@string/phone" />
+            android:text="@string/phone"
+            android:textColor="#FF932424" />
 
         <EditText
             android:id="@+id/editTextText9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.6"
+            android:backgroundTint="#E38585"
             android:ems="10"
             android:inputType="text"
             android:text="" />
